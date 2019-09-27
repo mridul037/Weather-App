@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+h1{
+background-color:yellow;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+fieldset {
+  display: block;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+.ghost-input, p {
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+.ghost-button {
+  background-color: transparent;
+  border:2px solid #ddd;
+  padding:10px 30px;
+  width: 100%;
+  min-width: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-button:hover {
+  border:2px solid #515151;
+}
+p {
+  color: #E64A19;
+}
+</style>
+    <meta charset="utf-8">
+    <title>Test</title>
+<h1>made by mridul shukla</h1>
+<img src="data:image/png;base64,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" align="left" style="width:170px;height:150px;" >
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <form action="/" method="post">
+          <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+          <input type="submit" class="ghost-button" value="Get Weather">
+        </form>
+<!-------------------------------------------------------->
+<% if(weather !== null){ %>
+          <p><%= weather %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+<!------------------------------------------------------->
+      </fieldset>
+    </div>
+<marquee>enter the city to get the tempraute in degree celsius</marquee>
+  </body>
+</html>
