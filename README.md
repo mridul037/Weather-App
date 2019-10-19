@@ -1,4 +1,6 @@
 # Weather-App
+![alt-text](https://github.com/mridul037/Weather-App/blob/master/weather-rain.PNG)
+
 <b><h2>Project Name:</h2></b>
 Weather app 
 <h2>Objective:</h2>
@@ -10,4 +12,4 @@ is returned and displayed the temprature in main page.
 <h2>Tech stack:</h2>
 1:)Using node js and express framework
 2:)HTML/CSS
-![alt-text](https://github.com/mridul037/Weather-App/blob/master/weather-rain.PNG)
+
